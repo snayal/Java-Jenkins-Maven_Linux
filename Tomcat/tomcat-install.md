@@ -6,8 +6,8 @@
 #Downloading apche tomcat from web
 ```sh
 cd /opt
-wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.63/bin/apache-tomcat-9.0.63.tar.gz.sha512
-tar -xvzf /opt/apache-tomcat-9.0.63.tar.gz.sha512
+wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.63/bin/apache-tomcat-9.0.63.tar.gz
+tar -xvzf /opt/apache-tomcat-9.0.63.tar.gz
 ```
 #Start the tomcat service
 ```sh

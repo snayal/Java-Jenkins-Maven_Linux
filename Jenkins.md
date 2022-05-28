@@ -1,4 +1,6 @@
+# Jenkins 
 ***Running Jenkins with Docker***
+-
 - docker pull jenkins/jenkins:jdk11
 - docker run --rm -ti \
 -   -p 8080:8080 -p 50000:50000 \
@@ -7,3 +9,15 @@
 
 ***Running Jenkins with Java***
 - 
+**Install using the step below**
+- sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+- sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+- sudo yum install jenkins
+
+**#Start Jenkins**
+- Service Jenkins start
+
+**#Setup Jenkins to start at boot**
+
+- chkconfig Jenkins on

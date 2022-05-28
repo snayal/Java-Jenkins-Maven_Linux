@@ -14,9 +14,14 @@
 
 - sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 - sudo yum install jenkins
+- sudo service jenkins status
 
 **#Start Jenkins**
 - Service Jenkins start
+
+***or***
+- sudo systemctl start jenkins
+- $ sudo systemctl status jenkins
 
 **#Setup Jenkins to start at boot**
 

@@ -26,3 +26,9 @@
 **#Setup Jenkins to start at boot**
 
 - chkconfig Jenkins on
+
+***Accessing Jenkins via web at port 8080***
+- <public ip>:8080
+  
+**get password**
+- sudo cat /var/libn/jenkins/secrets/initialAdminPassword

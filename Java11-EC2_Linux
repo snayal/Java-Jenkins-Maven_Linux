@@ -1,2 +1,5 @@
-** # Intallation of Java-11
-sudo amazon-linux-extras install java-openjdk11
+
+-*Command*
+-- sudo amazon-linux-extras install java-openjdk11
+
+
